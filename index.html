@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание вебинаров</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div class="header">
+            <h1 id="schedule-title">Загрузка...</h1>
+            <div class="navigation">
+                <button id="prev-week">⬅️</button>
+                <button id="today">К текущей</button>
+                <button id="next-week">➡️</button>
+            </div>
+        </div>
+        <div id="schedule-container" class="schedule-container">
+            <!-- Сюда будет рендериться расписание -->
+        </div>
+    </div>
+
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
