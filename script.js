@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let currentWeekOffset = 0;
     // !!! ВАЖНО: Замените 'https://your-bot-api-url.com' на реальный URL вашего бэкенда
-    const API_BASE_URL = 'http://your-server-ip:8080';
+    const API_BASE_URL = 'https://ae1192672635.ngrok-free.app';
 
     const titleEl = document.getElementById('schedule-title');
     const containerEl = document.getElementById('schedule-container');
